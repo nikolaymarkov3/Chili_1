@@ -36,3 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+
+###alure###
+.json
+/allure-results/1a99fae4-40cf-41b3-ae33-cb5b50bd6f77-result.json
+/allure-results/
