@@ -8,7 +8,6 @@ import static com.codeborne.selenide.Selenide.open;
 public class NikTest extends BaseTest{
     @Test
     public void userCanLoginByUsername() {
-//        Configuration.browserSize ="1920x1080";
         open("https://openweathermap.org/");
     }
 }
