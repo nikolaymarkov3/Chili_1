@@ -12,7 +12,7 @@ import java.awt.*;
 import java.time.Duration;
 
 public abstract class BaseTest {
-    @BeforeSuite
+    @BeforeMethod
     public void setUp() {
         Configuration.timeout = 6000;
         Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
