@@ -1,13 +1,16 @@
 package chili.nm.test;
 
-import chili.nm.runner.BaseTest;
+import com.codeborne.selenide.Configuration;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class NikTest extends BaseTest{
+public class NikTest{
+
     @Test
+
     public void userCanLoginByUsername() {
+        Configuration.browserSize ="1920x1080";
         open("https://openweathermap.org/");
     }
 }
