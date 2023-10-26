@@ -8,7 +8,6 @@ import static com.codeborne.selenide.Selenide.open;
 public class NikTest{
 
     @Test
-
     public void userCanLoginByUsername() {
         Configuration.browserSize ="1920x1080";
         Configuration.headless = true;
