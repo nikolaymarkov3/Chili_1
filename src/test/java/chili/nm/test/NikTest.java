@@ -11,6 +11,7 @@ public class NikTest{
 
     public void userCanLoginByUsername() {
         Configuration.browserSize ="1920x1080";
+        Configuration.headless = true;
         open("https://openweathermap.org/");
     }
 }
