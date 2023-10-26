@@ -31,6 +31,4 @@ jobs:
 
       - name: Maven test
         run: mvn -B package --file pom.xml # запуск тестов
-        env:
-          CHROME_OPTIONS: --disable-gpu;--no-sandbox;--disable-dev-shm-usage;--headless;--window-size=1920,1080
-          CI_RUN: true
+
