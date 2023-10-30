@@ -19,7 +19,7 @@
         <lombok.version>1.18.26</lombok.version>
         <allure-testng.version>2.21.0</allure-testng.version>
         <suiteXmlFile>src/test/resources/testsuites/Suite.xml</suiteXmlFile>
-        <webdrivermanage.version>5.5.3</webdrivermanage.version>
+
     </properties>
 
     <dependencies>
