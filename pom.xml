@@ -67,22 +67,10 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>${webdrivermanage.version}</version>
-        </dependency>
+
 
     </dependencies>
-    <build>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
 
-        </resources>
-    </build>
 
 
 
