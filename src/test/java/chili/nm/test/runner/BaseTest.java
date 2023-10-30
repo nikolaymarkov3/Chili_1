@@ -1,8 +1,7 @@
 package chili.nm.test.runner;
 
 import com.codeborne.selenide.*;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.chrome.ChromeOptions;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
