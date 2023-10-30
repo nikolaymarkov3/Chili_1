@@ -19,6 +19,7 @@
         <lombok.version>1.18.26</lombok.version>
         <allure-testng.version>2.21.0</allure-testng.version>
         <suiteXmlFile>src/test/resources/testsuites/Suite.xml</suiteXmlFile>
+        <webdrivermanage.version>5.5.3</webdrivermanage.version>
     </properties>
 
     <dependencies>
@@ -66,7 +67,22 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanage.version}</version>
+        </dependency>
+
     </dependencies>
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+
+        </resources>
+    </build>
 
 
 
