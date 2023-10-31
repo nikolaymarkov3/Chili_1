@@ -1,14 +1,9 @@
 package chili.nm.test.runner;
 
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Listeners;
-
-import java.awt.*;
 import java.io.InputStream;
-//@Listeners(TestListeners.class)
+
 public class BaseTest {
     static boolean isServerRun() {
         return System.getenv("CI_RUN") != null;}
